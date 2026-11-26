@@ -108,13 +108,16 @@ img {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
-  color: #fff;
   box-shadow: 0 4px 15px rgba(232, 40, 26, 0.35);
+}
+.bico img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .bname {
   font-family: "Playfair Display", serif;
